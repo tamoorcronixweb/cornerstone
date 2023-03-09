@@ -4,7 +4,7 @@ name: Deploy Theme to Staging Store
 on:
   workflow_dispatch:
   push:
-    branches: [ master, main ]
+    branches: [ staging ]
 
 jobs:
   build:
