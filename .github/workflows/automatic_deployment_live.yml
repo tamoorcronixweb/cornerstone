@@ -4,7 +4,7 @@ name: Deploy Theme to Live Store
 on:
   workflow_dispatch:
   push:
-    branches: [ master, main ]
+    branches: [ main ]
 
 jobs:
   build:
